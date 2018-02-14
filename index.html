@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+
+
+    <script src="../jquery-3.1.1.js"></script>
+    <script src="js/num-sys2.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+<h1>Numeral Convertor</h1>
+<div class="numeralSystem">
+
+    <div id="decimalSystem">
+        <span><strong>Decimal Number</strong></span> <br>
+    <input type="text" id="number1" oninput="calcDecimal()"><br>
+
+    <p id="binaryResult1"></p>
+    <p id="octoResult1"></p>
+    <p id="hexResult1"></p>
+    </div>
+
+    <div id="binarySystem">
+        <span><strong>Binary Number</strong></span> <br>
+    <input type="text" id="number2" oninput="calcBinary()"><br>
+
+    <p id="decimalResult"></p>
+    <p id="octoResult2"></p>
+    <p id="hexResult2"></p>
+
+    </div>
+
+    <div id="octalSystem">
+        <span><strong>Octal Number</strong></span> <br>
+    <input type="text" id="number3" oninput="calcOctal()"><br>
+
+    <p id="binaryResult2"></p>
+    <p id="decimalResult2"></p>
+    <p id="hexResult3"></p>
+    </div>
+
+    <div id="hexSystem">
+        <span><strong>Hexademical Number</strong></span> <br>
+    <input type="text" id="number4" oninput="calcHex()">
+
+    <p id="binaryResult3"></p>
+    <p id="octoResult3"></p>
+    <p id="decimalResult3"></p>
+    </div>
+
+</div>
+
+</body>
+</html>

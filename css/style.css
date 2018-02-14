@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+
+input[type=text] {
+    width: 300px;
+    height: 29px;
+    border: 2px solid red;
+    border-radius: 9px;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+}
